@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this educational module, please cite it using this metadata."
+title: "Random clustering baseline for STA426 Exercise 06"
+type: software
+authors:
+  - family-names: Altorfer
+    given-names: Meret
+version: 0.1.0
+license: MIT

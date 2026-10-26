@@ -1,0 +1,12 @@
+# Add this as another module under stages -> methods -> modules.
+# Keep osta-r and scanpy, including the Scanpy n_comp: [30, 50] change.
+# Replace BOTH placeholders after uploading this module to GitHub.
+      - id: random-r
+        name: Random clustering baseline in R
+        software_environment: r_osta
+        repository:
+          url: https://github.com/YOUR_GITHUB_USERNAME/omni-random-r
+          commit: REPLACE_WITH_FULL_COMMIT_HASH
+        parameters:
+          - seed: [42]
+            n_comp: [30]
